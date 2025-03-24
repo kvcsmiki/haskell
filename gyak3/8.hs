@@ -1,0 +1,1 @@
+lista = [(a,b,c) | a <- [True, False], b <- [True,False], c <- [True, False], a || b && c /= (a||b) && c]
